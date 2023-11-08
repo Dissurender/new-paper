@@ -4,7 +4,7 @@ author: Rhyn Ogg
 pubDatetime: 2023-11-02T00:00:00Z
 postSlug: hn-go
 featured: true
-draft: true
+draft: false
 ogImage: "https://github.com/Dissurender/new-paper/blob/main/src/assets/images/hngo.png"
 tags:
   - Go
