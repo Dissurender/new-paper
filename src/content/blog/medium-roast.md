@@ -1,7 +1,7 @@
 ---
 title: Slightly Roasted
 author: Rhyn Ogg
-pubDatetime: 2023-10-25T12:00:00.000Z
+pubDatetime: 2023-10-25T12:00:00Z
 postSlug: slightly-roasted
 featured: true
 draft: false
@@ -12,7 +12,7 @@ tags:
   - Express
   - PostgreSQL
   - Recursion
-description: Adventures in transforming a key-value dump into a relational database.
+description: Adventures in transforming a key-value dump into a relational database with a proxy API.
 ---
 
 ## Building a JavaScript Proxy API for Hacker News Data
@@ -124,7 +124,6 @@ export async function getComments(item, type) {
   }
   logger.info("Getting comments for " + item.id);
 
-  if (!item.kids) return item;
   const kids = await ingestData(item.kids, type);
 
   let newKids = [];
@@ -141,6 +140,29 @@ export async function getComments(item, type) {
 ```
 
 Above is where we recurse through comments, and comments' comments, and comments' comments' comments... Utilizing ingestData to fetch the actual data and replacing the integer arrays with the respective items and checking whether to continue with each iteration of our loop. I could have created functionality that would have dealt with this structure using Promise.all() but the issue there is that an item _can be null and still succeed_.
+
+## Logging Utility
+
+Using [Winston](https://github.com/winstonjs/winston) as a logging utility, I create rotating files locally for filtered relevent events(INFO level) and all errors(ERROR level). A sample of the INFO
+
+```js
+  transports: [
+    new transports.Console(),
+
+    new transports.DailyRotateFile({
+      level: 'info',
+      filename: `${logFolder}/%DATE%-info.log`,
+      datePattern: 'YYYY-MM-DD',
+      format: combine(
+        timestamp({ format: 'YYYY-MM-DD HH:mm:ss' }),
+        printf(({ timestamp, message }) => {
+          return `${timestamp} -- ${message}`;
+        })
+      ),
+      zippedArchive: true,
+      maxSize: '20m',
+    }),
+```
 
 ## Tech Used
 
