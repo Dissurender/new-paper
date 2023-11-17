@@ -16,7 +16,7 @@ description: Go unnecessarily fast.
 
 ## Exploring local cache implementation with Go
 
- In the planning phase of this project, ingesting the data from [HackerNews](https://news.ycombinator.com) created by [ycombinator](https://www.ycombinator.com) and providing a local copy via a caching structure was a simple blanket goal. This would also give me reason to experiment with some aspects of Go such as the concurrency model.
+In the planning phase of this project, ingesting the data from [HackerNews](https://news.ycombinator.com) created by [ycombinator](https://www.ycombinator.com) and providing a local copy via a caching structure was a simple blanket goal. This would also give me reason to experiment with some aspects of Go such as the concurrency model.
 
 ## Table of Contents
 
@@ -24,13 +24,11 @@ description: Go unnecessarily fast.
 
 I will start off by quoting my post [Slightly Roasted](https://new-paper.vercel.app/posts/slightly-roasted) where I cover more of the issues I encountered and the way I solved them.
 
-```
-..., that the documentation for said API linked in the footer of HackerNews is not entirely straight foward.. I actually found another version of documentation that was more useful <Hackernews.api-docs.io> that had more information on what to expect from fetching data.
-```
+`..., that the documentation for said API linked in the footer of HackerNews is not entirely straight foward.. I actually found another version of documentation that was more useful <Hackernews.api-docs.io> that had more information on what to expect from fetching data.`
 
 So moving forward I want to focus on my Go version of the code base and have a few comparisons thrown in to highlight the differences between the two.
 
-Go's Standard Libraries and tooling makes it a blast and I always enjoy when I can make the excuse to use it. I did opt to use the [Gin Web Framework](https://gin-gonic.com) for the ease of use but I will likely refactor to the basic http package offered by Go. Using Gin's default router and tossing on a helper package [gin-cors](https://github.com/itsjamie/gin-cors) to handle cors effortlessly I was able to roll out a couple endpoints that I would need to get the ball rolling on the actual heart of the project. 
+Go's Standard Libraries and tooling makes it a blast and I always enjoy when I can make the excuse to use it. I did opt to use the [Gin Web Framework](https://gin-gonic.com) for the ease of use but I will likely refactor to the basic http package offered by Go. Using Gin's default router and tossing on a helper package [gin-cors](https://github.com/itsjamie/gin-cors) to handle cors effortlessly I was able to roll out a couple endpoints that I would need to get the ball rolling on the actual heart of the project.
 
 ## Code Showcase
 
@@ -54,6 +52,7 @@ func AddToCacheWithExpiration(key string, value interface{}, expiration time.Dur
 	c.Set(key, value, expiration)
 }
 ```
+
 Above is my caching structure, using [Go-Cache](https://github.com/patrickmn/go-cache) to be a stand-in for writing my own key:value store for the sake of time.
 This includes the necessay functions you could ask for; Get/Add, and an expiration for each key as to keep the data fresh.
 
@@ -124,6 +123,7 @@ func retrieveKids(data []int) []interface{} {
 ## Appendix
 
 - [HackerNews](https://news.ycombinator.com) created by [ycombinator](https://www.ycombinator.com)<br>
+- [Gin Web Framework](https://gin-gonic.com)
 
 ### Full Code
 
