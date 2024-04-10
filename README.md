@@ -1,12 +1,6 @@
 ## JABS
 
-Just Another Blog Site, built with a modified version of the AstroPaper theme created by [Sat Naing](https://satnaing.dev) featured on [Astro](https://astro.build)'s [Theme](https://astro.build/themes/) page.
-
-# AstroPaper
-
-![GitHub](https://img.shields.io/github/license/satnaing/astro-paper?color=%232F3741&style=for-the-badge)
-
-AstroPaper is a minimal, responsive, accessible and SEO-friendly Astro blog theme. This theme is designed and crafted based on [my personal blog](https://satnaing.dev/blog).
+Just Another Blog Site, a modified version of the AstroPaper theme created by [Sat Naing](https://satnaing.dev) featured on [Astro](https://astro.build)'s [Theme](https://astro.build/themes/) page.
 
 ## Project Structure
 
@@ -36,8 +30,6 @@ AstroPaper is a minimal, responsive, accessible and SEO-friendly Astro blog them
 │   └── types.ts
 └── package.json
 ```
-
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
 
 Any static assets, like images, can be placed in the `public/` directory.
 
