@@ -183,7 +183,7 @@ DSD Cohort project with a large group of devs. Found myself with more responsibi
 ### Issues I encountered
 
 - Constant rate-limits on external API made testing difficult
-  <img src="https://github.com/Dissurender/new-paper/blob/main/src/assets/images/dsd-cohort/limit.png" alt="rate limit">
+  ![limit](../../assets/images/dsd-cohort/limit.png)
 - Developing with H2 can be difficult with the data flow I made
 - AuthN/AuthZ dependency methods I am familiar with being depreciated
 - Not having the bandwidth to fully implement features I conceptualized
@@ -192,7 +192,7 @@ DSD Cohort project with a large group of devs. Found myself with more responsibi
 
 - A small 'look-ahead cache' with H2 and Edamam API
 - onLoad logic from front-end to populate Autocomplete list in search component on front-end
-  <img src="https://github.com/Dissurender/new-paper/blob/main/src/assets/images/dsd-cohort/flow.png" alt="data flow">
+  ![flow](../../assets/images/dsd-cohort/flow.png)
 - A http response to Entity pipeline in Java
 - Making clean endpoint docs with [Swagger UI](https://swagger.io) and [Springdoc](https://springdoc.org)
 - Hiding a teacup and other easter eggs
