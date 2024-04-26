@@ -17,7 +17,7 @@ description: Reflections on my part in a cohort project.
 Jump straight to the TLDR: <a href="#tldr">TLDR</a> <br />
 
 This is a reflection on my part in the DSD spring 2024 cohort.<br />
-We had a larger than normal group, with two leads and eight contributors. Some of the restrictions we had were a time limit of six weeks, design decisions were decided by majority vote, pull requests needed to be approved by atleast two people, and all the complexity that comes with the schedules of ten participants.
+We had a larger than normal group, with two leads and eight contributors. Some of the restrictions we had were a time limit of six weeks, design decisions were decided by majority vote, pull requests needed to be approved by at least two people, and all the complexity that comes with the schedules of ten participants.
 
 ## About the Project
 
@@ -144,13 +144,13 @@ _I have to note that implementation was delay until week 4 due to the group cons
 
 ### Week 5 - Refine and deploy
 
-Implementation did bleed into this phase as our manual QA sessions were bringing bugs to our attention and the resulting squshing session. Overall, the refining allowed us to determine our remaining time and what we could sneak into the MVP.
+Implementation did bleed into this phase as our manual QA sessions were bringing bugs to our attention and the resulting squashing session. Overall, the refining allowed us to determine our remaining time and what we could sneak into the MVP.
 
 ![Endpoint](../../assets/images/dsd-cohort/endpoint.png)
 
 ### Week 6 - Prepare for demo
 
-With the anticipation that we would present live at a bi-monthly DSD meetup, we had _two minutes_ to demo the application infront of an audience. Unfortunately, tech issues at the meetup resulted in most of the time slot being displaced.
+With the anticipation that we would present live at a bi-monthly DSD meetup, we had _two minutes_ to demo the application in front of an audience. Unfortunately, tech issues at the meetup resulted in most of the time slot being displaced.
 
 ### Demo
 
@@ -160,21 +160,21 @@ With the anticipation that we would present live at a bi-monthly DSD meetup, we 
 
 My intentions going into this cohort was to take a full-stack approach and learn from the others to have a stronger grasp on the front-end. I was looking to get more experience working as a member of a team and follow the loose scrum/agile methodologies set up by our team leads.<br />
 
-My preconceptions were not quite on the mark this time. I was hoping that in a group this large, a natural heirarchy would evolve as we interacted and I could queitly take issues and squash bugs on the front-end and back-end. What I did not anticipate, was that I would be the one to fill the position for being in charge of the back-end almost in its entirety. My availability allowed me to spend more time in the code base and my desire to help the rest of the team understand and learn what we were doing with Spring Boot pushed me into a position of a psuedo-lead on the back-end. This meant writing tickets, documentation for topics the others were not 100% on, and dolling out issues to other team members when they asked where help was needed.
+My preconceptions were not quite on the mark this time. I was hoping that in a group this large, a natural hierarchy would evolve as we interacted and I could quietly take issues and squash bugs on the front-end and back-end. What I did not anticipate, was that I would be the one to fill the position for being in charge of the back-end almost in its entirety. My availability allowed me to spend more time in the code base and my desire to help the rest of the team understand and learn what we were doing with Spring Boot pushed me into a position of a pseudo-lead on the back-end. This meant writing tickets, documentation for topics the others were not 100% on, and dolling out issues to other team members when they asked where help was needed.
 
 _links to some of the docs written:_
 
 - [Spring Boot data flow](https://github.com/Dissurender/spring-dataflow/blob/main/README.MD)
-- [Idea Java Quickstart](https://github.com/Dissurender/idea-config/blob/main/ideaC_quickstart.md)
+- [Idea Java Quick start](https://github.com/Dissurender/idea-config/blob/main/ideaC_quickstart.md)
 - [API Details](https://github.com/Dissurender/dsd-api/blob/main/APIDETAILS.MD)
 
 ### Reflections
 
-The quantity of my contributions to the project left me worried that I was stepping over my team and their opportunities to learn, but opposed to that was my desire to have something I could stand infront of and talk about with pride to my peers.
+The quantity of my contributions to the project left me worried that I was stepping over my team and their opportunities to learn, but opposed to that was my desire to have something I could stand in front of and talk about with pride to my peers.
 
 As someone that is making the transition into tech while also going back to college to get the paper to prove what I already know, I want to be efficient with my time and the scope of my learning. Sure, I would really love to use Go in projects that I show off but Go is not in the entry-level market locally right now. So this project was important to me, because I could make progress in what is used locally and share knowledge with my team along the way.
 
-Experiencing the team dynamics in a group this size was a great learning opportunity for me. Seeing the process through from concept to something that worked and all the steps to get from one to the other. Having our team leads to guide us along the way without making decisions for us was a great catalyst for me to figure out the solutions to problems as the came up and which solution made sense with our tight timeframe to hit MVP.
+Experiencing the team dynamics in a group this size was a great learning opportunity for me. Seeing the process through from concept to something that worked and all the steps to get from one to the other. Having our team leads to guide us along the way without making decisions for us was a great catalyst for me to figure out the solutions to problems as they came up and which solution made sense with our tight time frame to hit MVP.
 
 While we did not hit every feature that was planned and had to cut a few corners to get the desired functionality in time(sorry to any security focused readers), I have something I can talk about to others and ask questions about things I had not thought about prior to this project and that is something to really be proud of going forward.
 
@@ -190,7 +190,7 @@ DSD Cohort project with a large group of devs. Found myself with more responsibi
 
 - Further expanding my Spring Boot knowledge
 - Endpoint etiquette and normalization
-- Seperating my domains to promote maintainable code
+- Separating my domains to promote maintainable code
 - Consuming data from external APIs in Java
 - A LOT of git practice
 
@@ -217,7 +217,7 @@ I made a personal fork of the project to test myself in re-imagining the fronten
 
 Goals of doing this:
 
-- Implement middleware funtions to handle logging
+- Implement middleware functions to handle logging
 - Migrate database to [PostgreSQL](https://www.postgresql.org/)
 - Set up events to help populate database
 - Rate limit external calls to avoid breaking call limits
