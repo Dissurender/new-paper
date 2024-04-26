@@ -21,7 +21,7 @@ We had a larger than normal group, with two leads and eight contributors. Some o
 
 ## About the Project
 
-Given an initial list of five product descriptions, our group decided to choose the project that was most relevant and usable personally.<br />
+Given an initial list of four product descriptions, our group decided to choose the project that was most relevant and usable personally.<br />
 
 > Grocery Management tool with built-in Recipe integration and macro counter. This tool will analyze the groceries you have on hand, can help build out a grocery list for things to get for meal prepping for the week, and give a detailed list of macros such as protein, carbs, etc. If a user puts in the items they have in the fridge, it can generate a list of recipes based on those ingredients.
 
