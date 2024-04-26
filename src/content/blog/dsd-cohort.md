@@ -78,10 +78,10 @@ Given an initial list of four product descriptions, our group decided to choose 
 
 ### Built with
 
-[![React][React.js]][React-url] <br />
-[![Material-UI][Material-UI]][Material-UI-url] <br />
-[![Spring][Spring_Boot]][Spring-url] <br />
-[![H2 Database][H2]][H2-url] <br />
+- [![React][React.js]][React-url]
+- [![Material-UI][Material-UI]][Material-UI-url]
+- [![Spring][Spring_Boot]][Spring-url]
+- [![H2 Database][H2]][H2-url]
 
 ## Planning and Requirements
 
@@ -100,6 +100,8 @@ In the initial meeting, the group make a timeline for the project. Given the tim
 Starting with the product description, the group spent the first half of the week writing user stories and what we would like to see in an application like this. We also made the decisions on the tech stack, landing on the front-end using [React](https://reactjs.org/) and with [Material-UI](https://mui.com/), and the back-end using [Spring Boot](https://spring.io/) and [PostgreSQL](https://www.postgresql.org/).
 
 The second half of the week was for boiling down the user stories into a list of requirements and tasks that we would like to accomplish for the MVP.
+
+![wireframe](../../assets/images/dsd-cohort/wireframes.png)
 
 ### Week 2 - Setup
 
@@ -136,15 +138,23 @@ During the process of week one and two, we were translating the user stories and
 
 Using the Github Project Board, we were able to discuss and track issues everyone was working on asyncronously. Development on the project saw a few bumps when we were actually implementing some of the features we wanted to include. This resulted in a few priority shifts as we went to ensure we hit MVP within our time limit.
 
+![ERD](../../assets/images/dsd-cohort/ERD.png)
+
 _I have to note that implementation was delay until week 4 due to the group constraints on design choices and getting a feel for the group dynamics. More on this in my [reflections](#reflections)._
 
 ### Week 5 - Refine and deploy
 
 Implementation did bleed into this phase as our manual QA sessions were bringing bugs to our attention and the resulting squshing session. Overall, the refining allowed us to determine our remaining time and what we could sneak into the MVP.
 
+![Endpoint](../../assets/images/dsd-cohort/endpoint.png)
+
 ### Week 6 - Prepare for demo
 
 With the anticipation that we would present live at a bi-monthly DSD meetup, we had _two minutes_ to demo the application infront of an audience. Unfortunately, tech issues at the meetup resulted in most of the time slot being displaced.
+
+### Demo
+
+[![Demo](https://markdown-videos-api.jorgenkh.no/youtube/iOJAwqXE1l0)](https://youtu.be/iOJAwqXE1l0)
 
 ## My Part in the Project
 
@@ -171,6 +181,10 @@ While we did not hit every feature that was planned and had to cut a few corners
 ## TLDR
 
 DSD Cohort project with a large group of devs. Found myself with more responsibility in the group than anticipated, but stepped up in hopes that my efforts into the project would bare results. Great learning experience from a wonderful dev community!
+
+| What I wanted           | What I got            |
+| ----------------------- | --------------------- |
+| Full-stack code slinger | In charge of Back-end |
 
 ### Things I learned along the way
 
