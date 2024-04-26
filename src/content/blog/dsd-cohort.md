@@ -85,7 +85,7 @@ Given an initial list of four product descriptions, our group decided to choose 
 
 ## Planning and Requirements
 
-In the initial meeting, the group make a timeline for the project. Given the time frame, the breakdown was:
+In the initial meeting, the group made a timeline for the project. Given the time frame, the breakdown was:
 
 | Week  | Task              |
 | ----- | ----------------- |
@@ -136,7 +136,7 @@ During the process of week one and two, we were translating the user stories and
 
 ### Week 3-5 - Implementation
 
-Using the Github Project Board, we were able to discuss and track issues everyone was working on asyncronously. Development on the project saw a few bumps when we were actually implementing some of the features we wanted to include. This resulted in a few priority shifts as we went to ensure we hit MVP within our time limit.
+Using the Github Project Board, we were able to discuss and track issues everyone was working on asynchronously. Development on the project saw a few bumps when we were actually implementing some of the features we wanted to include. This resulted in a few priority shifts as we went to ensure we hit MVP within our time limit.
 
 ![ERD](../../assets/images/dsd-cohort/ERD.png)
 
@@ -170,7 +170,7 @@ _links to some of the docs written:_
 
 ### Reflections
 
-The quantity of my contributions to the project left me worried that I was stepping over my team and their opportunities to learn, but apposed to that was my desire to have something I could stand infront of and talk about with pride to my peers.
+The quantity of my contributions to the project left me worried that I was stepping over my team and their opportunities to learn, but opposed to that was my desire to have something I could stand infront of and talk about with pride to my peers.
 
 As someone that is making the transition into tech while also going back to college to get the paper to prove what I already know, I want to be efficient with my time and the scope of my learning. Sure, I would really love to use Go in projects that I show off but Go is not in the entry-level market locally right now. So this project was important to me, because I could make progress in what is used locally and share knowledge with my team along the way.
 
