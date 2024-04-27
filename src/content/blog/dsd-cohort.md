@@ -5,7 +5,7 @@ pubDatetime: 2024-04-26T12:00:00Z
 postSlug: dsd-cohort
 featured: true
 draft: false
-ogImage: "src/assets/images/ogIm.png"
+ogImage: "../../assets/images/ogIm.png"
 tags:
   - Java
   - Backend
