@@ -170,11 +170,13 @@ _links to some of the docs written:_
 
 ### Reflections
 
-The quantity of my contributions to the project left me worried that I was stepping over my team and their opportunities to learn, but opposed to that was my desire to have something I could stand in front of and talk about with pride to my peers.
+My lead [Ryan](https://github.com/coffee2theorems) said at the start of the cohort, "You get out of this what you put into it" ... So I put an incredible amount of my time and knowledge towards this project. But beyond that, the following is my reflections:
 
-As someone that is making the transition into tech while also going back to college to get the paper to prove what I already know, I want to be efficient with my time and the scope of my learning. Sure, I would really love to use Go in projects that I show off but Go is not in the entry-level market locally right now. So this project was important to me, because I could make progress in what is used locally and share knowledge with my team along the way.
+The quantity of my contributions to the project left me worried that I was stepping over my team and their opportunities to learn, but opposed to that was my desire to have something at the end of the project that I could stand in front of and talk about with pride to my peers.
 
 Experiencing the team dynamics in a group this size was a great learning opportunity for me. Seeing the process through from concept to something that worked and all the steps to get from one to the other. Having our team leads to guide us along the way without making decisions for us was a great catalyst for me to figure out the solutions to problems as they came up and which solution made sense with our tight time frame to hit MVP.
+
+As someone that is making the transition into tech, while also going back to college to get the paper to prove what I already know, I want to be efficient with my time and the scope of my learning. Sure, I would really love to use Go in projects that I show off but Go is not in the entry-level market locally right now. So this project was important to me, because I could make progress in what is used locally and share knowledge with my team along the way.
 
 While we did not hit every feature that was planned and had to cut a few corners to get the desired functionality in time(sorry to any security focused readers), I have something I can talk about to others and ask questions about things I had not thought about prior to this project and that is something to really be proud of going forward.
 
