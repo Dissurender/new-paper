@@ -221,7 +221,7 @@ Goals of doing this:
 - Migrate database to [PostgreSQL](https://www.postgresql.org/)
 - Set up events to help populate database
 - Rate limit external calls to avoid breaking call limits
--
+- Migrate backend to cloud provider
 
 ## Links
 
