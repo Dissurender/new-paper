@@ -3,11 +3,9 @@ layout: ../layouts/AboutLayout.astro
 title: "About"
 ---
 
-# About
-
 My name is Rhyn, and I'm an industry switcher.
 
-I'm a huge nerd that like to build things both physically and technically. I'm a big fan of [Golang](https://go.dev/), [Elixir](https://elixir-lang.org/), self-hosting, and reading cheesy fantasy books.
+I'm a huge nerd that likes to build things both physically and digitally. I'm a big fan of [Golang](https://go.dev/), [Elixir](https://elixir-lang.org/), self-hosting, and reading cheesy fantasy books.
 
 ### Links
 
